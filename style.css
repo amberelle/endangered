@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+
+}
+.masthead {
+  width: 100%;
+  background-color: #E0E6BE;
+  padding: 5px;
+  position: fixed;
+  text-align: left;
+}
+.map {
+  padding-top: 100px;
+  width: 1500px;
+
+}
+.map-image {
+  width: 100%;
+
+}
+h1 {
+  color: black;
+}
+p{
+  margin: 1px;
+}
+.animal {
+  width: 100px;
+  background-color: rgba(255, 255, 255, .2);
+  border: 2px solid black;
+  border-radius: 10px;
+  transition-property: background-color, width;
+  transition-duration: .2s;
+  font-size: 75%;
+
+}
+.animal:hover {
+  width: 300px;
+  background-color: red;
+  box-shadow: 5px 5px 5px black;
+  font-size: 150%;
+
+}
+.animal img{
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.dog {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+}
+
+.wolf {
+  position: absolute;
+  top: 300px;
+  left: 830px;
+
+}
+.antelope {
+  position: absolute;
+  top: 150px;
+  left: 1100px;
+
+}
+.ferret{
+  position: absolute;
+  top: 270px;
+  left: 300px;
+
+}
+.pat{
+  position: absolute;
+  top: 500px;
+  left: 75px;
+
+}
+.dolphin{
+  position: absolute;
+  top: 275px;
+  left: 1000px;
+
+}
+.sloth{
+  position: absolute;
+  top: 500px;
+  left: 400px;
+
+}
